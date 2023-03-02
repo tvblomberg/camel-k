@@ -35,6 +35,9 @@ operator:
   # prometheus.io/path: /metrics
   # prometheus.io/port: '8080'
   # prometheus.io/scrape: 'true'
+  ## Select Nodes the operator will Run on
+  nodeSelector: {}
+  # kubernetes.io/os: linux
 
   ## Optionally specify an array of imagePullSecrets.
   ## Secrets must be manually created in the namespace.
